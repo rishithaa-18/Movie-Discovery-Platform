@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/d18d22a038.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="topHeader">
+        <h2><span>Movie</span> Details</h2>
+        <a href="index.html"><button id="backBtn">&larr; Back to Home</button></a>
+      </div>
+    </header>
+
+    <!-- Movie details get injected here by movie.js -->
+    <div class="movieDetailsContainer" id="movieDetailsContainer">
+      <p class="loadingText">Loading movie details...</p>
+    </div>
+
+    <hr />
+    <footer>
+      <div class="copyright">Copyright &copy; All Rights Reserved</div>
+    </footer>
+
+    <script src="movie.js"></script>
+  </body>
+</html>

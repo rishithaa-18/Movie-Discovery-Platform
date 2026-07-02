@@ -1,12 +1,12 @@
 ## Overview
 
-This project is a static website that allows users to explore movies across different categories. It includes multiple pages and a clean user interface.
+This project is a static website that allows users to explore movies across different categories, and click into a full details page for each title. It includes a clean, responsive user interface.
 
 ## Features
 
 - Browse movies by category
 - Responsive layout
-- Multi-page structure (Home, About, Contact)
+- Click any movie card to view full details (poster, overview, genres, release date, rating, runtime, language, status)
 - Interactive elements using JavaScript
 
 ## Tech Stack
@@ -18,11 +18,10 @@ This project is a static website that allows users to explore movies across diff
 ## Project Structure
 
 - index.html – Main homepage
-- about.html – About page
-- contact.html – Contact page
-- disclaimer.html – Disclaimer page
+- movie.html – Movie details page (reads ?id= from the URL)
 - style.css – Styling
-- script.js – JavaScript functionality
+- script.js – Homepage JavaScript functionality
+- movie.js – Movie details page JavaScript functionality
 - img/ – Images folder
 
 ## Author
